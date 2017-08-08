@@ -1,0 +1,27 @@
+{
+  "name": "DZ-music-bot",
+  "version": "1.0.0",
+  "description": "Tweets a random song from my Spotify tracks daily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js",
+    "postinstall": "npm rebuild node-sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleoleonard/music-bot.git"
+  },
+  "keywords": [
+    "music",
+    "spotify",
+    "twitter",
+    "bot"
+  ],
+  "author": "Andy Leonard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleoleonard/music-bot/issues"
+  },
+  "homepage": "https://github.com/aleoleonard/music-bot#readme"
+}
