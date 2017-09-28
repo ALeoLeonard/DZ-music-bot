@@ -103,6 +103,7 @@ var TwitBot = TwitBot || {
         console.log(err)
       } else {
         console.log(`${artists} - ${songPick.name}`)
+        console.log(`https://open.spotify.com/track/${song.track.id}`)
       }
     })
   }
