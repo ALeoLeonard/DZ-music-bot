@@ -1,5 +1,6 @@
 # DZ-music-bot
 
+##Setup and Running
 * `npm install` to install the dependencies
 * Create a `.env` file for your Spotify and Twitter credentials (clientId, clientSecret & CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 * Create credentials if need be and add them 
@@ -11,6 +12,6 @@
   * The Artist, Song Name, and URI should appear in the console if it worked.
   * If it didn't you should see an error message
 
-
+##Remixing
 * You can point it at a different playlist by changing line 57 return `Spotify.api.getPlaylistTracks('PLAYLISTID', 'USERID')` 
   * https://github.com/thelinmichael/spotify-web-api-node
