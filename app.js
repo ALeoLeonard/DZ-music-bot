@@ -97,7 +97,7 @@ var TwitBot = TwitBot || {
 
     /* post the tweet! */
     TwitBot.api.post('statuses/update', {
-      status: `${songPick.name} BY ${artists} ${songPick.uri} #DZsMusicBot`
+      status: `${songPick.name} by ${artists} ${songPick.uri} #DZsMusicBot`
     }, (err, data, response) => {
       if (err) {
         console.log(err)
